@@ -1,0 +1,36 @@
+{
+  "name": "serverweb-ifc",
+  "version": "1.0.0",
+  "description": "-",
+  "main": "index.js",
+  "scripts": {
+    "build": "rollup -c rollup.config.js",
+    "dev": "rollup -w -c rollup.dev.config.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.15.0",
+    "@rollup/plugin-html": "^0.2.3",
+    "@rollup/plugin-node-resolve": "^13.0.2",
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "html-loader": "^2.1.2",
+    "rollup": "^2.56.3",
+    "rollup-plugin-html": "^0.2.1",
+    "rollup-plugin-postcss": "^4.0.1",
+    "rollup-plugin-serve": "^1.1.0",
+    "style-loader": "^3.2.1",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "dependencies": {
+    "css-loader": "^6.2.0",
+    "request": "^2.88.2",
+    "three": "^0.135.0",
+    "three-mesh-bvh": "^0.4.3",
+    "web-ifc": "0.0.36",
+    "web-ifc-three": "0.0.121"
+  }
+}

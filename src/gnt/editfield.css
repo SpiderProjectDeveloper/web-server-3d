@@ -1,0 +1,13 @@
+.editfield-bkgr {
+	display:none; 
+	box-sizing: border-box;	margin:0; padding:0; 
+	position:absolute; left:0; top:0; min-width:100%; min-height:100%; background-color:#4f4f4f; opacity:0.35;
+}
+.editfield { position:absolute; display:none; }
+.editfield-container { width:100%; box-sizing:content-box; background-color:#dfdfdf; padding:0px; border:1px solid .4f4f4f; }
+.editfield-textarea { box-sizing:border-box; border:0px; font-size:100%; }
+.editfield-textarea:focus { outline:none !important; }
+.editfield-toolbox { padding:4px; }
+.editfield-calendar-button { float:left; color: var(--ok-color); }
+.editfield-cancel-button { color: var(--cancel-color); } 
+.editfield-message { overflow:ellipsis; background-color:#ffffff; font-size:95%; }

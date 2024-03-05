@@ -1,0 +1,58 @@
+:root {
+	--ok-color: #4f4f4f;
+	--cancel-color: #bf2f2f;
+}
+
+.messageBoxBkgr {
+	display:none; 
+	box-sizing: border-box;	margin:0; padding:0; 
+	position:absolute; left:0; top:0; min-width:100%; min-height:100%; background-color:#4f4f4f; opacity:0.35;
+}
+
+.messageBox { 
+	display:none; 
+	box-sizing: border-box;	margin:0; padding:0; 
+	position:absolute; left:30%; top:30%; width:40%; height:40%; 
+}
+
+.messageBoxText { 
+	position:relative; display:table-cell; min-width:100%; min-height:100%; 
+	background-color:#ffffff; text-align:center; vertical-align:middle; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.confirmationBox { 
+	display:none; 
+	box-sizing: border-box;	margin:0; padding:8px 14px 8px 14px; 
+	position:absolute; left:30%; top:30%; width:40%; height:40%; 
+}
+
+.confirmationBoxContainer { 
+	box-sizing: border-box;	margin:0; padding:0; 
+	position:relative; display:table-cell; min-width:100%; min-height:100%; 
+	background-color:#ffffff; text-align:center; vertical-align:middle; 
+}
+
+.confirmationBoxText { 
+	box-sizing: border-box;	margin:0; padding:4px 4px 24px 4px;
+	text-align: center; 
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.confirmationBoxOk { 
+	box-sizing: border-box;	margin:0; padding:0; 
+	width:50%; margin-bottom:12px; padding-top:12px; padding-bottom:12px;
+	border-color:var(--ok-color); color:var(--ok-color); 
+} 
+.confirmationBoxOk:hover { 
+	background-color: var(--ok-color); color: white; 
+}
+
+.confirmationBoxCancel { 
+	box-sizing: border-box;	margin:0; padding:0; 
+	width:50%; padding-top:12px; padding-bottom:12px; 
+	visibility:hidden; border-color: var(--cancel-color); color: var(--cancel-color); 
+}
+.confirmationBoxCancel:hover { 
+	background: var(--cancel-color); color: white; 
+}

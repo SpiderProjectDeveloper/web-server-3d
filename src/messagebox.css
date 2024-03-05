@@ -1,0 +1,53 @@
+.messagebox-background {
+	position: absolute;
+	top:0; left: 0;
+	width: 100vw; height: 100vh;
+	min-width: 100vw; min-height: 100vh;
+	opacity: 0.5;
+	background-color: #4f4f4f;
+	display:block;
+}
+
+.messagebox-container {
+	position: absolute;
+	left: 30vw; top:30vh; 
+	min-width: 40vw; min-height: 40vh;
+	max-width: 40vw; max-height: 40vh;
+	padding: 0px; 
+	background-color: #ffffff;
+	border-radius:10px;
+	border: 1px solid #7f7f7f;
+	display:block;
+}
+
+.messagebox-title-container {
+	position: sticky; position: -webkit-sticky;  overflow:hidden;
+	top:0; left:0; min-width:100%; max-width:100%; box-sizing: border-box; 
+	background-color:#ffffff; padding:4px; 
+	border-bottom:1px solid #afafaf;
+	height:40px; min-height:40px; max-height:40px;
+}
+
+.messagebox-title {
+	display:inline-block; padding:2px 2px 2px 2px; background-color:#ffffff; 
+	font-family: Arial; font-size:14px;
+}
+
+.messagebox-confirm {
+	display:inline-block; width:28px; max-width:28px;
+	cursor: pointer; color: #449944; font-weight: bold; font-size:24px;
+}
+
+.messagebox-cancel {
+	display:inline-block; width:28px; max-width:28px;
+	cursor: pointer; color: #994444; font-weight: bold; font-size:24px;
+}
+
+.messagebox-text {
+	position: absolute; 
+	min-height: calc(40vh - 54px); max-height: calc(40vh - 54px); 
+	min-width: calc(40vw - 8px); max-width: calc(40vw - 8px); 
+	overflow: auto; 
+	top: 48px; padding:20px; 
+	text-align: center; font-family: Arial; font-size:100%; background-color: #ffffff; 
+}

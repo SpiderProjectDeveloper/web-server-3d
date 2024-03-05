@@ -1,0 +1,517 @@
+﻿{
+  "parameters" : {
+    "language" : "ru",
+    "timeDelim" : ":",
+    "dateDelim" : ".",
+    "chatPort" : "9000",
+    "apiPort" : "8080",
+    "dateFormat" : "",
+    "uploadTime" : 1680095633 
+  },
+  "project" : {
+    "Code" : "BasicHouse",
+    "Version" : 1,
+    "Name" : "Project Number",
+    "Notes" : "",
+    "CurTime" : 1677657600,
+    "WexbimPath" : "",
+    "IFCPath" : "C:\\Users\\1395262\\Documents\\Spider Project\\Demo Projects\\BasicHouse.ifc",
+    "secondsInPixel" : "30303",
+    "expandToLevelAtStart" : "3",
+    "wbsCode" : "struct_main" 
+  },
+  "activities" : [
+    {
+      "Name" : "project",
+      "Start" : 1677657600,
+      "Fin" : 1683648000,
+      "DurPlanD" : 50,
+      "Level" : "1",
+      "Code" : "0",
+      "AsapStart" : 1677657600,
+      "AsapFin" : 1683648000,
+      "f_ColorCom" : "11534336",
+      "f_ColorBack" : "13233656",
+      "f_UniId" : "18" 
+    },
+    {
+      "Name" : "Start Proiect",
+      "Start" : 1677657600,
+      "Fin" : 1677657600,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "11",
+      "AsapStart" : 1677657600,
+      "AsapFin" : 1677657600,
+      "f_ColorCom" : "255",
+      "f_ColorBack" : "16777215",
+      "f_UniId" : "83" 
+    },
+    {
+      "Name" : "Final Proiect",
+      "Start" : 1683648000,
+      "Fin" : 1683648000,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "12",
+      "AsapStart" : 1683648000,
+      "AsapFin" : 1683648000,
+      "f_ColorCom" : "255",
+      "f_ColorBack" : "16777215",
+      "f_UniId" : "85" 
+    },
+    {
+      "Name" : "Floor 0",
+      "Start" : 1677657600,
+      "Fin" : 1683648000,
+      "DurPlanD" : 49,
+      "Level" : "2",
+      "Code" : "1",
+      "AsapStart" : 1677657600,
+      "AsapFin" : 1683648000,
+      "f_ColorCom" : "53760",
+      "f_ColorBack" : "13434828",
+      "f_UniId" : "54" 
+    },
+    {
+      "Name" : "Pereti Exteriori",
+      "Start" : 1678435200,
+      "Fin" : 1679328000,
+      "DurPlanD" : 7,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "3",
+      "AsapStart" : 1678435200,
+      "AsapFin" : 1679328000,
+      "f_ColorCom" : "255",
+      "f_ColorBack" : "16777215",
+      "f_Model" : "783,634,361,941",
+      "f_Materials" : "384",
+      "f_UniId" : "56" 
+    },
+    {
+      "Name" : "Tamplarie Exterioara",
+      "Start" : 1680595200,
+      "Fin" : 1681315200,
+      "DurPlanD" : 7,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "4",
+      "AsapStart" : 1680595200,
+      "AsapFin" : 1681315200,
+      "f_ColorCom" : "9240460",
+      "f_ColorBack" : "16777215",
+      "f_Model" : "783,634,361,941",
+      "f_Materials" : "384",
+      "f_UniId" : "58" 
+    },
+    {
+      "Name" : "Pereti Interiori",
+      "Start" : 1679385600,
+      "Fin" : 1680537600,
+      "DurPlanD" : 10,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "5",
+      "AsapStart" : 1679385600,
+      "AsapFin" : 1680537600,
+      "f_ColorCom" : "255",
+      "f_ColorBack" : "16777215",
+      "f_Model" : "783,634,361,941",
+      "f_Materials" : "384",
+      "f_UniId" : "60" 
+    },
+    {
+      "Name" : "Tamplarie Interioara",
+      "Start" : 1681804800,
+      "Fin" : 1682956800,
+      "DurPlanD" : 10,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "6",
+      "AsapStart" : 1681804800,
+      "AsapFin" : 1682956800,
+      "f_ColorCom" : "255",
+      "f_ColorBack" : "16777215",
+      "f_Model" : "783,634,361,941",
+      "f_Materials" : "384",
+      "f_UniId" : "62" 
+    },
+    {
+      "Name" : "Mobilier",
+      "Start" : 1683014400,
+      "Fin" : 1683648000,
+      "DurPlanD" : 6,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "7",
+      "AsapStart" : 1683014400,
+      "AsapFin" : 1683648000,
+      "f_ColorCom" : "255",
+      "f_ColorBack" : "16777215",
+      "f_Model" : "6535,7190,8644,13204,13539,13643,18068,18168,18228,18288,18348,18408,18468,19546,19604,19661,19721,20201,20259,1118165,1118271,1118331,1118391,1118753,1118899,1119614,1119721,1119793,1119853,1119946,1120018,1120541,1120678,1129043,1129160,1131039,1131098,1131158,1131217,1131277,1142278,1142364,1643096,1643156,1643523,1643627,1643687,1653290,1653678,1653737,1653797,1653856,1653916,1653975,1654035,1656252,1657400,1693668,1693883,1700289,1726382,1752480,1763479,1763544,1763601,1763658,1763715,1763772,1765104,1765207,1765266,1130382,1130658,1130936",
+      "f_UniId" : "64" 
+    },
+    {
+      "Name" : "Fundatie",
+      "Start" : 1677657600,
+      "Fin" : 1678377600,
+      "DurPlanD" : 7,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "9",
+      "AsapStart" : 1677657600,
+      "AsapFin" : 1678377600,
+      "f_ColorCom" : "255",
+      "f_ColorBack" : "16777215",
+      "f_Model" : "1765687",
+      "f_UniId" : "66" 
+    },
+    {
+      "Name" : "Pardoseala Strat Finit",
+      "Start" : 1680595200,
+      "Fin" : 1681488000,
+      "DurPlanD" : 9,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "10",
+      "AsapStart" : 1680595200,
+      "AsapFin" : 1681488000,
+      "f_ColorCom" : "9240460",
+      "f_ColorBack" : "16777215",
+      "f_Model" : "1765687",
+      "f_Materials" : "384",
+      "f_UniId" : "68" 
+    },
+    {
+      "Name" : "Floor 1",
+      "Start" : 1680595200,
+      "Fin" : 1681747200,
+      "DurPlanD" : 10,
+      "Level" : "2",
+      "Code" : "2",
+      "AsapStart" : 1680595200,
+      "AsapFin" : 1681747200,
+      "f_ColorCom" : "53760",
+      "f_ColorBack" : "13434828",
+      "f_UniId" : "69" 
+    },
+    {
+      "Name" : "Acoperis",
+      "Start" : 1680595200,
+      "Fin" : 1681747200,
+      "DurPlanD" : 10,
+      "VolPlan" : 100,
+      "Level" : "",
+      "Code" : "8",
+      "AsapStart" : 1680595200,
+      "AsapFin" : 1681747200,
+      "f_ColorCom" : "255",
+      "f_ColorBack" : "16777215",
+      "f_Model" : "1765355,1765393",
+      "f_Materials" : "1765358",
+      "f_UniId" : "71" 
+    } 
+  ],
+  "fields" : [
+    {
+      "Code" : "Name",
+      "Name" : "Name",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 0,
+      "format" : 0,
+      "widthsym" : 40 
+    },
+    {
+      "Code" : "Start",
+      "Name" : "Start",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 0,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "Fin",
+      "Name" : "Finish",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 0,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "DurPlanD",
+      "Name" : "Duration, Days [Remaining]",
+      "Type" : "number",
+      "editable" : 0,
+      "hidden" : 0,
+      "format" : 2,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "VolPlan",
+      "Name" : "Volume [Remaining]",
+      "Type" : "number",
+      "editable" : 0,
+      "hidden" : 0,
+      "format" : 4,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "Level",
+      "Name" : "Уровень",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 2 
+    },
+    {
+      "Code" : "Code",
+      "Name" : "Код",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "AsapStart",
+      "Name" : "Начало [КМР]",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "AsapFin",
+      "Name" : "Окончание [КМР]",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "FactStart",
+      "Name" : "Начало [Факт]",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "FactFin",
+      "Name" : "Окончание [Факт]",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "Type",
+      "Name" : "Тип",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "Notes",
+      "Name" : "Комментарии",
+      "Type" : "text",
+      "editable" : 1,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "VolFact",
+      "Name" : "Объём [Факт]",
+      "Type" : "number",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 2,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_FontColor",
+      "Name" : "Цвет текста",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_LastFin",
+      "Name" : "Окончание [Исполнение]",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_ColorCom",
+      "Name" : "Цвет графика",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_ColorBack",
+      "Name" : "Цвет фона",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "Start_COMP",
+      "Name" : "БАЗОВОЕ - Начало",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "Fin_COMP",
+      "Name" : "БАЗОВОЕ - Окончание",
+      "Type" : "datetime",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_Model",
+      "Name" : "Элемент модели",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_Materials",
+      "Name" : "Прикреплённые к операции материалы",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_MessagesNumber",
+      "Name" : "Сообщения в чате [количество]",
+      "Type" : "number",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 2,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_MessagesNew",
+      "Name" : "Сообщения в чате [непрочитанные]",
+      "Type" : "number",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 2,
+      "widthsym" : 17 
+    },
+    {
+      "Code" : "f_UniId",
+      "Name" : "Идентификатор",
+      "Type" : "text",
+      "editable" : 0,
+      "hidden" : 1,
+      "format" : 0,
+      "widthsym" : 17 
+    } 
+  ],
+  "links" : [
+    {
+      "PredCode" : "9",
+      "SuccCode" : "3",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "3",
+      "SuccCode" : "5",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "5",
+      "SuccCode" : "8",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "5",
+      "SuccCode" : "4",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "5",
+      "SuccCode" : "10",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "10",
+      "SuccCode" : "6",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "8",
+      "SuccCode" : "6",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "4",
+      "SuccCode" : "6",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "6",
+      "SuccCode" : "7",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "11",
+      "SuccCode" : "9",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    },
+    {
+      "PredCode" : "7",
+      "SuccCode" : "12",
+      "sfType" : "FS",
+      "f_TypeSF2" : "0" 
+    } 
+  ],
+  "performance" : [
+  ],
+  "types" : [
+  ],
+  "errcode" : 0,
+  "error" : "" 
+}

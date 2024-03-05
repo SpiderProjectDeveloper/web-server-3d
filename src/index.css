@@ -1,0 +1,95 @@
+﻿* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin:0; padding:0;
+}
+
+::-webkit-scrollbar {
+	width: 4px; height: 4px;
+	cursor: pointer;
+}
+::-webkit-scrollbar-thumb {
+	background: #afafaf;
+	cursor: pointer;
+}
+
+
+#header {
+	overflow: hidden;
+	background: rgba(25, 25, 25, 0.75);
+	height: 40px; max-height:40px; min-height:40px; padding: 6px; 
+	white-space: nowrap;
+}
+
+#header-datetime {
+	display:inline-block; vertical-align: top; cursor: pointer;
+	height: 28px; min-height: 28px; max-height: 28px; 
+	margin-right: 4px; padding: 6px 8px 2px 8px; border: 0px; border-radius: 4px;
+	font-size:14px; font-family: Arial; color: #efefef;
+}
+
+#header-project-name {
+	display: inline-block; vertical-align: top; cursor: default; overflow: hidden;
+	max-width:50%; 
+	height: 28px; min-height:28px; max-height:28px; margin-left: 8px; padding: 4px;	border: 0px;
+	font-size:14px; font-family: Arial; color: #ffffff;
+}
+
+#header-play-button, #header-pause-button {
+	vertical-align: top; cursor: pointer;
+	height: 28px; min-height: 28px; max-height: 28px; 
+	margin-left: 4px; padding: 1px 8px 2px 8px; border: 0px; border-radius: 4px;
+	font-size:18px; font-family: Arial; background-color:#f7f7f7;
+}
+
+#header-play-button {
+	display:inline-block; 
+}
+
+#header-pause-button {
+	display:none; 
+}
+
+#header-speed-input {
+	display: inline-block; vertical-align: top; cursor: pointer;
+	width: 48px; height: 28px; min-height:28px; max-height:28px; 
+	margin-left: 2px; padding: 4px;	border: 0px; border-radius:4px;
+	font-size:12px; font-family: Arial; background-color: #ffffff;
+}
+
+#header-speed-prompt {
+	display: inline-block; vertical-align: top; cursor: pointer;
+	height: 28px; min-height:28px; max-height:28px; margin-left: 2px; padding: 8px 4px 4px 4px;	border: 0px;
+	font-size:12px; font-family: Arial; color: #ffffff;
+}
+
+#header-color-coding-button {
+	display:inline-block; vertical-align: top; cursor: pointer;
+	height: 28px; min-height: 28px; max-height: 28px; 
+	margin-left: 12px; padding: 1px 8px 2px 8px; border: 0px; border-radius: 4px;
+	font-size:18px; font-family: Arial; background-color:#f7f7f7;
+}
+
+#header-help-button {
+	display:inline-block; vertical-align: top; cursor: pointer;
+	height: 28px; min-height: 28px; max-height: 28px; 
+	margin-left: 0px; padding: 6px 8px 2px 8px; border: 0px; border-radius: 4px;
+	font-size:14px; font-family: Arial; background-color:#f7f7f7;
+}
+
+#header-hide-not-started-input {
+	display: inline-block; vertical-align: top; cursor: pointer;
+	height: 14px; min-height:14px; max-height:14px; 
+	margin-left: 12px; margin-right: 0px; margin-top: 7px; padding: 2px;	border: 0px; border-radius:4px;
+	font-size:12px; font-family: Arial; background-color: #ffffff;
+}
+
+#header-hide-not-started-prompt {
+	display: inline-block; vertical-align: top; cursor: pointer;
+	height: 28px; min-height:28px; max-height:28px; margin-left: 2px; padding: 8px 4px 4px 4px;	border: 0px;
+	font-size:12px; font-family: Arial; color: #ffffff;
+}

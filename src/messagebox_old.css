@@ -1,0 +1,53 @@
+.messagebox-background {
+	position: absolute;
+	top:0; left: 0;
+	width: 100vw; height: 100vh;
+	min-width: 100vw; min-height: 100vh;
+	opacity: 0.5;
+	background-color: #4f4f4f;
+	z-index: 100000;
+	display:none;
+}
+
+.messagebox-container {
+	position: absolute;
+	left: 30vw; top:30vh; 
+	min-width: 40vw; min-height: 40vh;
+	max-width: 40vw; max-height: 40vh;
+	overflow:hidden;
+	padding: 10px; 
+	background-color: #ffffff;
+	border-radius:10px;
+	border: 1px solid #7f7f7f;
+	z-index: 100001;
+	display:none;
+}
+
+.messagebox {
+	position: relative;
+	overflow: scroll;
+	background-color: #ffffff;
+}
+
+.messagebox-confirm {
+	position: absolute;
+	cursor: pointer; color: #449944; font-weight: bold; font-size:14px;
+	font-size:24px;
+	right:0; top:0;
+}
+
+.messagebox-title {
+	position: relative;
+	font-size:14px;
+	padding:2px 2px 18px 2px;
+	border-bottom:1px solid #afafaf;
+	font-family: Arial;
+}
+
+.messagebox-text {
+	position: relative;
+	padding:20px; 
+	font-size:100%;
+	text-align: center;
+	font-family: Arial;
+}

@@ -1,0 +1,15 @@
+
+#ifc-content {
+	position:relative;
+	width:100%;
+	height: calc(100% - 40px);
+	overflow: hidden;
+	background: #ffffff;
+}
+
+#ifc-canvas {
+	position: absolute;
+	left:0; top:0; width: 0; height: 0;
+	overflow:hidden;
+}
+

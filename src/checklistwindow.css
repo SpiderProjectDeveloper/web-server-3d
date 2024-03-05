@@ -1,0 +1,14 @@
+.checklistwindow-item-container {
+	white-space: nowrap;
+	padding: 4px;
+}
+
+.checklistwindow-item-checkbox {
+	display:inline-block;
+	padding: 0px 4px 0px 4px;
+}
+
+.checklistwindow-item-title {
+	display:inline-block;
+	padding: 0px 4px 0px 4px;	
+}
